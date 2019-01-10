@@ -1,0 +1,47 @@
+.msg p{
+    margin-left: 35px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-left: 3px solid #19bebe;
+    padding-left: 25px; 
+}
+.msg{
+    padding: 30px 40px;
+}
+.revise{
+    border-top: 1px dashed #ccc;
+}
+.phone,.weixin{
+    border: 1px solid #ccc;
+    margin: 15px 35px;
+    width: 495px;
+    height: 65px;
+    padding-left: 25px;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0
+}
+.revise img{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.revise p1{
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}
+.revise input{
+    position: absolute;
+    top: 17px;
+    right: 23px;
+    width:80px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background: #fea700;
+    color: #fff;
+}

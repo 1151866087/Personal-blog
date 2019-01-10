@@ -1,0 +1,238 @@
+.top{
+    background: #fafafa;    
+    border-bottom: 1px solid #e0e0e0;
+}
+.top span{
+    display: block;
+    margin: 0 10px;
+    color: #dedede;
+}
+.top-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.top ul{
+    display: flex;
+    line-height: 36px;
+}
+.top ul:first-child{    
+    justify-content: flex-start;
+}
+.top ul:last-child{
+    justify-content: flex-end;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo p{
+    line-height: 55px;
+}
+.logo input{
+    width: 425px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    padding-left: 15px;
+}
+.logo-left{
+    padding-top:25px; 
+}
+.logo-right .fangdajing{
+    width: 40px;
+    height: 38px;
+    border-left: 1px solid #e0e0e0;
+    background: #fff url(../images/fangdajing.png) no-repeat center center;
+    position: absolute;
+    top: 55px;
+    right: 140px;
+}
+.logo-right{    
+    position: relative;
+}
+.logo-right p{
+    text-align: right;
+}
+.logo-right img{
+    position: relative;
+    top: 2px;
+    left: -3px;
+}
+.logo button:last-child{
+    margin-left:10px; 
+    width: 125px;
+    height: 40px;
+    background: #ffdb3d;
+}
+.logo-right a{
+    color: #333;
+    background:#eeeeee;
+}
+.logo-right div{
+    position: absolute;
+    right:190px;
+    top: 65px;
+}
+.nav{
+    margin: 15px 0;
+}
+.nav a{
+    font-size: 18px;
+    color: #fff;
+}
+.nav ul{
+    display: flex;
+    background: #404145;
+    line-height: 50px;
+    justify-content: space-between;
+}
+.nav .drop{
+    width: 245px;
+    background: #ff4a00;
+    padding-left: 20px;
+}
+.subnav>div{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.subnav{
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+.subnav span{
+    font-size: 16px;
+    color: #333;
+}
+.subnav>div>div{
+    display: flex;
+    justify-content: flex-end;
+}
+.subnav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    
+}
+.subnav button,.foot-center button{
+    width: 120px;
+    height: 30px;
+    background: #ff4a00;    
+    color: #fff;
+}
+.hezi{
+    padding-top: 90px;
+    position: relative;
+    height: 925px;
+    width: 100%;
+    background: url(../images/hezi.png) no-repeat center bottom;
+}
+.chazuo{
+    padding-top: 90px;
+    height: 980px;
+    background:#ececec url(../images/xiaomichazuo.png)no-repeat center bottom;
+}
+.hezi>img{
+    position: absolute;
+    left: 220px;
+    top: 30px;
+}
+.hezi button,.gift button{
+    width: 150px;
+    height: 50px;
+    background: #ff4a00;    
+    color: #fff;
+    border-radius: 5px;
+}
+h{
+    font-size: 55px;
+    color: #333;
+    line-height: 80px;
+    margin-top: 90px;
+}
+p1{
+    line-height: 110px;
+    font-size: 38px;
+    color: #ff4a00;
+}
+.chatou{
+    padding-top: 90px;
+    height: 1150px;
+    background:#f2eeef url(../images/jihe.png)no-repeat center bottom;
+}
+.movie{
+    background: url(../images/dianying.png)no-repeat center bottom;
+    height: 1253px;
+}
+.tv{
+    background: url(../images/jiating.png)no-repeat center bottom;
+   height: 970px;
+}
+.gift{
+    padding-top: 90px;    
+    height: 1210px;
+    background: #fcfcfc;
+}
+.gift ul{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.gift li:not(:first-child){
+    border-left: 1px solid #e0e0e0;    
+}
+.gift li{
+    width: 250px;
+    padding: 45px 0;
+}
+ .title{
+    font-size: 20px;
+    color: #333;
+    line-height: 40px;
+}
+.product h{
+    line-height: 60px;
+    color: #ff4a00;
+    font-size: 14px;
+}
+.product{
+    padding: 40px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    background: #fafafa;
+}
+.foot-top,.foot-center{
+    padding: 40px 0;
+}
+.foot-top ul{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.foot-center {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    justify-content:flex-start;
+}
+.foot-center ul{
+    margin-right: 30px;
+    border-right: 1px solid #dedede;
+    line-height: 30px;
+    width: 170px;
+}
+.foot-center ol{
+    color: #333;
+    font-size: 14px;
+}
+.foot-center button{
+    margin-top: 20px;
+}
+.footer{
+    padding: 40px;
+}
+.footer select{
+ width: 200px;
+ height: 38px;
+}

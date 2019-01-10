@@ -1,0 +1,230 @@
+/* 样式初始化 */
+*{margin: 0;padding: 0;}
+body{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    color: #3387a1;
+    font-size: 14px;  
+    font-family: 宋体, Helvetica, Arial, Verdana, sans-serif;
+    } 
+html{
+    width: 100%;
+    height: 100%;
+}
+.row:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #3387a1;
+}
+.border{
+    border: 1px solid;
+}
+a:hover{
+    color: #3387a1;
+}
+h1{
+    font-size: 30px;
+    padding-top:100px;
+    padding-left:250px;  
+    color: #fff;
+}
+/* home样式 */
+#home{
+    width: 100%;
+    height: 800px;
+    background: url("../images/3.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+#home p{
+    padding-top: 250px;
+    padding-left: 250px;
+    font-size: 30px;
+    width: 20px;
+    color: #fff
+}
+/* about的所有样式 */
+.about{
+    margin-left:auto;
+    margin-right: auto; 
+    width: 80%;    
+}
+.introduce,.work,.Skill{
+    margin-top: 15px;
+    background:#f5f7f7;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.item-top{
+    line-height: 50px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.item-top img{
+    display: inline-block;
+}
+.item-top span{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+}
+/* 个人简介 */
+.introduce-item{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 60px ;    
+    line-height: 30px;
+}
+.item-left{
+    margin-right: 80px;
+}
+
+
+/* 回到顶部样式· */
+.side-tool{
+    width: 50px;
+        height: 50px;
+        background: #999;
+        position: fixed;
+        z-index: 100;
+        bottom: 100px;
+        right: 50px;
+        display: none;
+}
+.side-tool:hover p{
+    display: block;
+}
+.side-tool p{
+    display: none;
+    position: relative;
+    left: -55px;
+    top: -20px;
+}
+/* 能力 */
+.Skill-list-item{
+    font-size: 24px;
+    line-height: 50px;
+    margin: 15px 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.Skill-list-item>div{ 
+    width: 75%;   
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 1px solid #999;
+}
+.Skill-list-item>span{
+    width: 200px;
+}
+.Skill-list-item>div>div{
+    border-radius: 15px;;
+    height: 100%;  
+}
+.html>div{
+    width: 85%;
+    background: #f09819;      
+    animation:html 5s ;
+}
+@keyframes html {
+    0% {
+        width: 0;
+        background: #f09819;
+    }
+    100% {
+        width: 85%;        
+    }
+}
+.jquery>div{
+    width: 76%;
+    background: #fc6076;      
+    animation:jquery 5s ;
+}
+@keyframes jquery {
+    0% {
+        width: 0;
+        background: #fc6076;
+    }
+    100% {
+        width: 76%;        
+    }
+}
+.xiao>div{
+    width: 64%;
+    background:  #faaca8;      
+    animation:xiao 4s ;
+}
+@keyframes xiao {
+    0% {
+        width: 0;
+        background:  #faaca8;
+    }
+    100% {
+        width: 64%;        
+    }
+}
+.vue>div{
+    width: 50%;
+    background: #FFBAC3;      
+    animation:vue 4s ;
+}
+@keyframes vue {
+    0% {
+        width: 0;
+        background: #FFBAC3;
+    }
+    100% {
+        width: 50%;        
+    }
+}
+/* 脚本样式 */
+footer{
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;    
+    text-align: center;    
+    font-size: 30px;
+}
+.foot-title{
+    margin: 30px auto;        
+    width: 130px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #999;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+footer .foot-item{
+    position: relative;
+    width: 33.3%;
+}
+footer .foot-logo{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+}
+footer .foot-item-img{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    display: block;
+    margin: 0 auto;       
+    visibility: hidden;
+}
+footer .foot-logo:hover{
+
+}
+footer .foot-logo:hover~.foot-item-img{
+    visibility: visible
+}

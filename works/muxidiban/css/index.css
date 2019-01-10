@@ -1,0 +1,46 @@
+@import 'common.css';
+@import 'gongshi.css';
+@import 'jiameng.css';
+@import 'lianxi.css';
+@import 'ps.css';
+@import 'shouye.css';
+.navbar-collapse .navbar-nav  .nav-one{
+    border-bottom: 1px solid #2dae2d !important;
+    color: #2dae2d !important;
+}
+#footer{
+    background: #dddddd;
+    padding: 20px 0  ;
+    color: #666666;
+    margin-top: 50px;
+}
+/* #foot:before{
+    display: block;
+    content: "";
+    clear: both;
+} */
+#footer img{
+    width: 70px;
+    height: 70px;
+}
+.footer-list {
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+#footer li{
+    line-height: 25px;
+    text-align: center;
+}
+@media (max-width: 767px){
+    #footer{
+        text-align: left;
+    }
+    .footer-list {
+        text-align: left;
+    }
+    #footer .container div,#footer .container div li {
+        padding-left: 0px;
+        text-align: left;
+    }
+
+}

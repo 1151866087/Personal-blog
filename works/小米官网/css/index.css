@@ -1,0 +1,317 @@
+.top{
+    background: #fafafa;
+    line-height: 38px;
+}
+.top-nav span,.top-lading span{
+    display: inline-block;
+    margin: 0 10px;
+}
+.top-lading{
+    float: right;
+}
+
+.container>p{
+    line-height: 60px;
+    font-size:14px;
+}
+.container>p>a{
+    font-size: 12px;
+}
+.biao{
+    float: right;
+    display: block;
+    padding-top: 20px;
+}
+.biao a{
+    display: inline-block;
+    height: 25px;
+    width: 30px;
+    line-height: 60px;
+}
+.biao img{
+    position: relative;
+    top: -13px;
+    left: 10px;
+}
+.header-logo{
+    margin: 25px 0 15px 0;
+}
+.header-search{
+    float: right;
+    text-align: right;
+    position: relative;
+}
+input{
+    border: 1px solid #cccccc;
+    height: 40px;
+    width: 420px;
+    display: inline-block;
+    margin: 15px 10px 0 0;
+}
+.header-search>button{
+    width: 125px;
+    height:40px;
+    background: #ffdb3d;
+    border: 1px solid #ffdb3d;
+    display: inline-block;
+}
+.header-search button img{
+    position: relative;
+    left: -6px;
+    top: 2px;
+}
+.search{
+    position: absolute;
+    right: 138px;
+    top: 35px;
+    line-height: 40px;
+}
+.search button{
+    width: 40px;
+    height: 40px;
+    background: url("../images/fangdajing.png") no-repeat center center;
+    margin:0  0 0 10px ;
+    border: none;
+    border-left: 1px solid #ccc;
+
+}
+.search a{
+    background: #f3f3f3;
+    position: relative;
+    top: -14px;
+}
+
+.subtotal,.header-nav{
+    float: left;
+   
+}
+.subtotal>p{ 
+    padding-left: 20px;   
+    line-height: 40px;
+    font-size: 16px;
+    width: 228px;
+}
+.subtotal li{
+    float: left;
+    line-height: 35px;
+    margin-right: 5px;
+}
+.subtotal ul{
+    padding: 20px  0 0px 20px;
+}
+.header-nav li{
+    float: left;
+    line-height:40px;
+    width:  110px;
+    font-size: 16px;
+    text-align: center;
+}
+.show-one{
+    width: 990px;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+.showtu-one{
+    width: 990px;
+    height: 420px;
+    overflow: hidden;
+}
+.show-two{
+    width: 330px;
+    float: left;
+}
+.show-one ul{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.show-one li{
+    width:30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #fff;
+    opacity: 0.8;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+.item>div:first-child{
+    padding-bottom:30px; 
+}
+.item>div:not(:first-child){
+    padding-bottom:30px;     
+}
+.item p{
+    line-height: 25px;
+}
+.new-one{
+    height: 320px;
+}
+.new-two{
+    padding: 25px;
+    height: 320px;
+    text-align: center;
+}
+.txue{
+    background: url("../images/bluet.jpg") no-repeat center center;
+}
+.new-two p{
+    text-align: left;
+}
+.new-three{
+    height: 160px;
+}
+.new-three>div:first-child{
+    padding: 25px;
+}
+.tejiashangpin{
+    position: absolute;
+    background: red;
+    top: 0;
+    left: 125px;
+}
+.tejia{
+    height: 130px;
+    padding: 30px 20px ;   
+}
+.tejia h{
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+}
+.tejia p{
+    line-height: 25px;
+}
+.cunchuka{
+    height: 150px;
+    margin-top: 10px;
+    position: relative;
+     background: url("../images/cunchuka.jpg") no-repeat 80% center ;
+}
+.cunchuka span{
+    text-decoration: line-through;
+}
+.taocan{
+    background: url("../images/channel-list-cool.jpg") no-repeat 80% center ;
+}
+.kuwan{
+    background: url("../images/channel-list-new.jpg") no-repeat 80% center ;
+}
+.more{
+    padding: 30px 30px 20px ;
+}
+.pass{
+    line-height: 45px;
+}
+.pass a:first-child {
+ float: right;
+}
+.yaoqian{
+    padding-top: 50px;
+}
+.yaoqian input,.yaoqian button{
+    display: block;
+    width: 245px;
+    height: 35px;
+}
+.yaoqian h{
+    line-height: 20px;
+    font-size: 14px;
+    color:  #333333;
+}
+.yaoqian p{
+    line-height: 28px;
+}
+.form-group select{
+    width: 245px;
+    height: 35px;
+    margin: 20px 0;
+}
+.footer{
+    margin-top: 70px;
+    background:#fafafa;
+}
+.service{
+    height: 160px;
+}
+.repair{
+    padding: 44px 70px;
+}
+.repair img{
+    margin-bottom: 15px;
+}
+.service-list{
+    padding:10px 90px 0px 30px;
+    float: left;
+    margin: 40px 0 25px;
+}
+.service-list dt{
+    line-height: 25px;
+    font-size: 14px;
+    color: #333;
+}
+.service-list dd{
+    line-height: 30px;
+}
+.contact{
+    margin: 50px 0 25px 60px;
+    float: left;
+}
+.phone{
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact button{
+    display: block;
+    width: 120px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+}
+.xiaomi-info{
+    padding: 40px 0 ;
+}
+.xiaomi-info ul{
+    width: 941px;
+}
+.xiaomi-info li{
+    float: left;
+    margin: 5px;
+}
+.xiaomi-info a{
+    color: #333;
+}
+.xiaomi-info a:hover{
+    color: #ff4a00;
+}
+.form{
+    width: 385px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 20px;
+}
+.form-control{
+    width: 200px;
+    height: 40px;
+}
+.form img{
+    position: absolute;
+    left: 0px;
+    top: 8px;
+}
+.show-one .current{
+    background: #333;
+    color:orange;
+}
+.show-one li{
+    cursor: pointer;
+}
+.show-one img{
+    position: absolute;
+}
+.show-one img:not(:first-child){
+    display: none;
+}

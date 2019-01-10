@@ -1,0 +1,50 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-size: 12px;
+    color: #888;
+}
+.container{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+.row:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+button{
+    outline: none;
+    border: none;
+}
+.ta-c{
+    text-align: center;
+}
+.center{
+    margin-left:auto;
+    margin-right: auto; 
+}
+.border-left{
+    border-left:1px solid #e0e0e0; 
+}
+.pr{
+    position: relative;
+}
+.photo{
+    vertical-align: bottom;
+}

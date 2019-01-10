@@ -1,0 +1,159 @@
+*{margin: 0;padding: 0;
+    color: #999999;}
+a{
+    text-decoration: none;
+}
+.load{
+    width:400px;
+    text-align: center;
+    border: 1px solid#333;
+    height: 800px;
+    background: #fff;
+    height: 480px;
+    padding: 35px 0 20px;;
+    position: absolute;
+    top: 50%;
+    margin-top: -268.5px;
+    right: 155px;
+    
+}
+.load ul li{
+    list-style: none;
+    margin:0  20px 35px;
+    display: inline-block;
+    font-size: 22px;
+    color: #000;
+}
+.current{
+    color: #f56600 !important;
+}
+input{
+    width: 325px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    padding-left: 15px;
+}
+button{
+    margin: 10px 0 20px;
+    width: 340px;
+    height: 50px;
+    border: none;
+    background: #f56600;
+    color: #fff;
+    font-size: 18px;
+}
+.zhuce a{
+    color: #999999;
+    font-size:12px;
+}
+.zhuce>a:hover{
+    background: #338fff;
+    color: #fff;
+}
+.zhuce{
+    margin-bottom: 120px;
+}
+fieldset{
+    border: none;
+    /* border-top: 1px solid #333; */
+}
+.border{
+    border-top: 1px solid#333; 
+    width: 340px;
+    display: inline-block;
+    /* height: 0px; */
+}
+.allpay a{
+    display: inline-block;
+    background: #747474;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+    position: relative;
+}
+.allpay span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("images/icons_type.png") no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.allpay .qq{
+    background-position-x:-18px;
+}
+.allpay .weibo{
+    background-position-x:-37px;
+}
+.allpay .zhifubao{
+    background-position-x:-57px;
+}
+.allpay .weixin{
+    width: 23px;
+    margin-left: -11.5px;
+    background-position-x:-84px;
+}
+.top{
+    height: 100px;
+    background: #fff;
+    position: relative;
+
+}
+.center{
+    position: relative;
+    height: 590px;
+    background: url("images/banner.png") no-repeat center center;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    padding: 25px 0;
+}
+.one{
+    float: left;
+    width: 48px;
+    height: 48px;
+    background:#f56600 url("images/mi-logo.png" ) no-repeat center center;
+}
+.two>p:last-child{
+    font-size: 8px;
+    line-height: 12px;
+    color:#999999;
+}
+.two>p{
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 68px;
+    color: #000;
+}
+.footer li{
+    display: inline-block;
+    margin: 0 5px;
+    list-style: none;
+}
+.footer ul{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    text-align: center;
+}
+.footer p{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    line-height: 35px;
+}
+.footer{
+    padding: 50px;
+    font-size: 12px;
+    text-align: center;
+}

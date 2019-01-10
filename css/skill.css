@@ -1,0 +1,84 @@
+.Skill-list{
+    padding: 40px 50px 20px;
+}
+.progress{
+    height: 24px;
+    /* line-height: 35px; */
+    background: #b1c8c9;
+    /* box-shadow: none; */
+    padding: 10px;
+    margin-bottom:20px;
+    overflow: visible;
+    border-radius:15px;
+}
+.progress:after{
+    content: "";
+    display: block;
+    border-top: 4px dashed #fff;
+    margin-top:-14px;
+}
+.progressbar-title{
+    font-size:24px;
+    font-weight: bold;
+}
+.progress .progress-bar{
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    animation: animate-positive 2s;
+    height: 24px;
+}
+
+.progress .progress-bar span{
+    position: absolute;
+    top: -50px;
+    right: -40px;
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 7px;
+    background: #333;
+    border-radius: 0 0 5px 5px;
+}
+.progress .progress-bar span:before{
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 18px;
+    border: 7px solid transparent;
+    border-top: 7px solid #333;
+}
+.Skill-list .progress .java{
+    width: 80%; 
+    background-image: linear-gradient(to left, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%);
+    z-index: 50
+}
+.Skill-list .progress .css3{
+    width: 85%; 
+    /* background-image: linear-gradient(, 0%,  100%); */
+    background-image: linear-gradient(to right, #f8da9c 0%, #f5c462 70%, #f2b63c 100%);
+}
+.Skill-list .progress .xiao{
+    width: 65%; 
+    background-image: linear-gradient(to right, #ea8a7e 0%, #e15a4a 70%, #db3a27 100%);
+}
+.Skill-list .progress .vue{
+    width: 50%; 
+    background-image: linear-gradient(to right,  #b7dc8e 0%, #99ce5f 70%, #85c440 100%);
+}
+.progress .progress-bar span:after{
+    content: "\f072";
+    font-family: fontawesome;
+    font-size: 48px;
+    color: #333;
+    position: absolute;
+    top: 40px;
+    right: 6px;
+    transform: rotateZ(48deg);
+}
+@-webkit-keyframes animate-positive {
+    0% { width: 0%;}
+}
+@keyframes animate-positive {
+    0% { width:0%; }
+}
